@@ -9,15 +9,15 @@ int main () {
     int returnSize = 5;
 
     int testCase1[] = {-4, -1, 0, 3, 10}; //expected output: {0,1,9,16,100}
-    int testCase1size = 5;
-    printArray(testCase1, testCase1size);
-    int* sortedArr = sortedSquares(testCase1, testCase1size, &returnSize);
+    int testCase1Size = 5;
+    printArray(testCase1, testCase1Size);
+    int* sortedArr = sortedSquares(testCase1, testCase1Size, &returnSize);
     printArray(sortedArr, returnSize);
 
     int testCase2[] = {-7, -3, 2, 3, 11}; //expected output: {4,9,9,49,121}
-    int testCase2size = 5;
-    printArray(testCase2, testCase2size);
-    int* sortedArr2 = sortedSquares(testCase2, testCase2size, &returnSize);
+    int testCase2Size = 5;
+    printArray(testCase2, testCase2Size);
+    int* sortedArr2 = sortedSquares(testCase2, testCase2Size, &returnSize);
     printArray(sortedArr2, returnSize);
 
     free(sortedArr);
