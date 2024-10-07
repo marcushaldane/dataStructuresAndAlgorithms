@@ -12,7 +12,6 @@ int main () {
     printArray(array1, array1Size);
     bool NandDoubleExist1 = checkIfExist(array1, array1Size);
     printf("Expected Output: True \nActual Output: %s\n", NandDoubleExist1 ? "True" : "False");
-
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     printf("==========================================\n");
     int array2[] = {3,1,7,11}; 
@@ -26,10 +25,7 @@ int main () {
     int array3Size = 7;
     printArray(array3, array3Size);
     bool NandDoubleExist3 = checkIfExist(array3, array3Size);
-    printf("Expected Output: False \nActual Output: %s\n", NandDoubleExist2 ? "True" : "False");
-
-
-
+    printf("Expected Output: False \nActual Output: %s\n", NandDoubleExist3 ? "True" : "False");
 
     return 0;
 }
