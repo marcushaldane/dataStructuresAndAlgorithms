@@ -41,7 +41,6 @@ int removeElement(int* nums, int numsSize, int val) {
             nonValElements++;
         }
     }
-
     return nonValElements;
 }
 
