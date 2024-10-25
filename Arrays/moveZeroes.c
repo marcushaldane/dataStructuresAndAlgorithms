@@ -11,7 +11,7 @@ int main () {
     int array1Size = 5;
     printf("array1 Initially: ");
     printArray(array1, array1Size);
-    moveZeroes(array1, array1Size); // expected k value = 2
+    moveZeroes(array1, array1Size);
     printf("Expected Output: [ 1, 3, 12, 0, 0 ]\nActual Output: ");
     printArray(array1, array1Size);
     
@@ -21,7 +21,7 @@ int main () {
     int array2Size = 1;
     printf("array2 Initially: ");
     printArray(array2, array2Size);
-    moveZeroes(array2, array2Size); // expected k value = 5
+    moveZeroes(array2, array2Size); 
     printf("Expected Output: [ 0 ]\nActual Output: ");
     printArray(array2, array2Size);
     
