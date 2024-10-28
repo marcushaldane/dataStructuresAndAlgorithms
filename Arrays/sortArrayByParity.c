@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+
 
 void printArray(int* nums, int numsSize);
 int* sortArrayByParity(int* nums, int numsSize, int* returnSize);
